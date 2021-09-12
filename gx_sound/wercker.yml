@@ -1,0 +1,19 @@
+box: ros:kinetic
+
+build:
+  steps:
+    - script:
+      name: setup ros environments
+      code: |
+        source /opt/ros/kinetic/setup.bash
+        mkdir -p /root/catkin_ws/src
+        cd /root/catkin_ws/src
+        catkin_init_workspace
+        ln -s $WERCKER_SOURCE_DIR /root/catkin_ws/src/gx_sound
+        cd /root/catkin_ws
+        catkin_make
+    - script:
+      name: run tests
+      code: |
+        source /root/catkin_ws/devel/setup.bash
+        nosetests -svw gx_sound_player/test/

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gx_sound</name>
+  <version>0.2.2</version>
+  <description>The gx_sound package</description>
+  <maintainer email="dev@groove-x.com">GROOVE X Development Team</maintainer>
+  <license>BSD</license>
+  <url type="website">https://github.com/groove-x/gx_sound</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>gx_sound_msgs</exec_depend>
+  <exec_depend>gx_sound_player</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

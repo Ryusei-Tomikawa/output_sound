@@ -1,0 +1,23 @@
+# gx_sound_player へのサウンド再生リクエスト
+
+# 再生する時刻
+time stamp
+
+# 再生するオーディオファイル
+string file
+
+---
+# 再生結果 (result)
+
+uint16 UNKNOWN = 0
+uint16 SUCCEED = 1
+uint16 INTERRUPTED = 2
+uint16 FILE_NOT_FOUND = 3
+
+uint16 result
+---
+# 途中経過 (feedback)
+
+uint16 UNKNOWN = 0
+
+uint16 feedback

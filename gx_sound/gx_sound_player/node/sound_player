@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
+import rospy
+from gx_sound_player import SoundPlayerNode
+
+try:
+    node = SoundPlayerNode()
+    node.main()
+except rospy.ROSInterruptException:
+    pass

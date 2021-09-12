@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gx_sound_msgs</name>
+  <version>0.2.2</version>
+  <description>The gx_sound_msgs package</description>
+  <maintainer email="dev@groove-x.com">GROOVE X Development Team</maintainer>
+  <license>BSD</license>
+  <url type="website">https://github.com/groove-x/gx_sound</url>
+
+  <build_depend>message_generation</build_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>actionlib_msgs</depend>
+
+  <export>
+  </export>
+</package>

@@ -1,0 +1,8 @@
+bool stop_signal
+bool avoid_signal
+bool comeback_signal
+
+----------- 
+
+bool end_signal
+
