@@ -1,8 +1,6 @@
 # output_sound
 このリポジトリは、ROSを用いて音声出力が簡易的にできるリポジトリです。
 
-# gx_sound [![wercker status](https://app.wercker.com/status/f7851ae3137c361ddcdc6750a617ad7a/s/master "wercker status")](https://app.wercker.com/project/byKey/f7851ae3137c361ddcdc6750a617ad7a)
-
 Sound player package for ROS.
 
 ## Installation
